@@ -1,3 +1,9 @@
+import java.util.Scanner;
+import java.util.ArrayList;
+import java.util.LinkedHashSet;
+import java.util.Random;
+
+
 class Password extends RegisterAccount implements Register {
 
   private static final int maxAttempts = 3;
