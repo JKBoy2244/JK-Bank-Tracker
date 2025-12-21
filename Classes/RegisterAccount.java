@@ -4,7 +4,7 @@ import java.util.LinkedHashSet;
 import java.util.Random;
 
 
-abstract class RegisterAccount implements RegisterInterface {
+abstract class RegisterAccount implements Register {
 
   private static final int maxAttempts = 3;
 
