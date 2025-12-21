@@ -1,4 +1,4 @@
-abstract class RegisterAccount implements Register {
+abstract class RegisterAccount implements RegisterInterface {
 
   private static final int maxAttempts = 3;
 
