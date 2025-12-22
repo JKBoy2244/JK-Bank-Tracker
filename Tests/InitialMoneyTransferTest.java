@@ -3,4 +3,10 @@ import java.util.ArrayList;
 import java.util.LinkedHashSet;
 import java.util.Random;
 
+public class InitialMoneyTransferTest {
 
+  public static void main(String[] args) {
+
+    InitialMoneyTransfer money = new InitialMoneyTransfer(1000.00);
+  }
+}
