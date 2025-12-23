@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.LinkedHashSet;
 import java.util.Random;
 
-public class PasswordTest {
+public class PasswordTest1 {
 
   public static void main(String[] args) {
 
