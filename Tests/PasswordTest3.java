@@ -7,7 +7,7 @@ public class PasswordTest3 {
 
   public static void main(String[] args) {
 
-    Password register = new Password("XYZ1245SDER44", 26, "Female", "03456434454", "Xytre@hotmail.com","ABCDEFG1234", "ABCDEFG1234", 888888888);
+    Password register = new Password("XYZ1245SDER44", 26, "Female", "03456434454", "Xytre@hotmail.com","ABCDEFG12345555534W", "ABCDEFG12345555534W", 888888888);
     System.out.println(register.getUserName());
     System.out.println(register.getAge());
     System.out.println(register.getGender());
