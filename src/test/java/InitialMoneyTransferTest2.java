@@ -12,6 +12,6 @@ public class InitialMoneyTransferTest2 {
    void constructor_sets_all_fields_correctly() {
 
     InitialMoneyTransfer money = new InitialMoneyTransfer(0.00);
-    assertEquals(0.00, getMoney());
+    assertEquals(0.00, money.getMoney());
   }
 }
