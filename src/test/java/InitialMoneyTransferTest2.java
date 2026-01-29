@@ -8,7 +8,8 @@ import java.util.Random;
 
 public class InitialMoneyTransferTest2 {
 
-  public static void main(String[] args) {
+   @Test
+   void constructor_sets_all_fields_correctly() {
 
     InitialMoneyTransfer money = new InitialMoneyTransfer(0.00);
     assertEquals(0.00, getMoney());
