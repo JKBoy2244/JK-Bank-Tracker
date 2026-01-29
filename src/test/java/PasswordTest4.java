@@ -9,7 +9,7 @@ import java.util.Random;
 public class PasswordTest4 {
 
   @Test
-  void constructor_sets_all_fields_correctly( {
+  void constructor_sets_all_fields_correctly() {
 
     Password register = new Password("XYZ", 34444444, "boy", "0345643445455545435334345353353w", "Xytre@.com","ABCDE", "ABCDEFG1234666666", 888888888);
     assertEquals("XYZ", register.getUserName());
